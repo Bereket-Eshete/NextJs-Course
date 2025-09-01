@@ -1,5 +1,6 @@
 import React from "react";
-export default function Home() {
+import prisma from "@/lib/prisma";
+export default async function Home() {
   console.log("Hello, Next.js!");
   return <></>;
 }
